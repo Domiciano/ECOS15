@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Registro</title>
+
+    
+</head>
+<body>
+
+
+    <div id="regform">
+        <h2>Registro</h2>
+        <input id="emailET" type="text" placeholder="Email">
+        <input id="passET" type="text" placeholder="Password">
+        <input id="nombreET" type="text" placeholder="Nombre">
+        <input id="natIdET" type="text" placeholder="Cedula">
+        <input id="paisET" type="text" placeholder="Pais">
+        <button id="regBtn">Registro</button>
+    </div>
+
+
+</body>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyCIUO_sp4gha4Mb_GGBznhRHxA4J6mVZcA",
+    authDomain: "ecosistemas-de-aplicaciones.firebaseapp.com",
+    databaseURL: "https://ecosistemas-de-aplicaciones.firebaseio.com",
+    projectId: "ecosistemas-de-aplicaciones",
+    storageBucket: "ecosistemas-de-aplicaciones.appspot.com",
+    messagingSenderId: "1079264779719",
+    appId: "1:1079264779719:web:d03c37659ee47ec34fcde2",
+    measurementId: "G-QZR06NCGMZ"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+
+
+
+<script src="js/index.js"></script>
+
+</html>

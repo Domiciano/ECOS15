@@ -1,0 +1,10 @@
+#regform{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#regform *{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
