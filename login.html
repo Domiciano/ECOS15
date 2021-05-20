@@ -8,16 +8,13 @@
 </head>
 <body>
     
-    <h2 id="userName"></h2>
-    <h4 id="userEmail"></h4>
-    <h4 id="userNatid"></h4>
-    <h4 id="userCountry"></h4>
+    <input id="emailET" type="text" placeholder="email"><br><br>
+    <input id="passET" type="password" placeholder="password"><br><br>
 
-    <button id="signoutBtn">Cerrar sesión</button>
+    <button id="loginBtn">Iniciar sesión</button>
 
 
 </body>
-
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase.js"></script>
 <script>
   var firebaseConfig = {
@@ -32,6 +29,7 @@
   };
   firebase.initializeApp(firebaseConfig);
 </script>
-<script src="js/home.js"></script>
+<script src="js/login.js"></script>
+
 
 </html>
